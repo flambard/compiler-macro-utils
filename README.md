@@ -5,6 +5,7 @@ Here I intend to collect tools and utilities for writing and working with
 Common Lisp compiler macros.
 
 This is what the Hyperspec has to say of the purpose of compiler macros:
+
 > The purpose of the compiler macro facility is to permit selective source code
 > transformations as optimization advice to the compiler.
 
