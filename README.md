@@ -37,3 +37,10 @@ __compiler-macro-expand-1__ form &optional env => expansion, expanded-p
 __compiler-macro-p__ name => boolean
 
 > Returns _true_ if a compiler macro is defined for _name_, otherwise _false_.
+
+
+[Function]  
+__literal-p__ object => boolean
+
+> Returns _true_ if _object_ is either an atom or a list where the first element
+> is the symbol _quote_, otherwise _false_.

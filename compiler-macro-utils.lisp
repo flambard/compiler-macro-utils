@@ -10,6 +10,7 @@
    #:compiler-macro-expand-1
    #:compiler-macro-expand
    #:compiler-macro-p
+   #:literal-p
 
    ))
 
@@ -51,3 +52,7 @@
 
 (defun compiler-macro-p (name)
   (functionp (compiler-macro-function name)))
+
+(defun literal-p (object)
+  (or (atom object)
+      (eq 'quote (car object))))
