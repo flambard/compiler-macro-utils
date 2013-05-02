@@ -9,7 +9,7 @@ This is what the Hyperspec has to say of the purpose of compiler macros:
 > The purpose of the compiler macro facility is to permit selective source code
 > transformations as optimization advice to the compiler.
 
-Currently there are three functions in the compiler-macro-utils package.
+The compiler-macro-utils package contains the following symbols:
 
 [Function]  
 __compiler-macro-expand__ form &optional env => expansion, expanded-p
